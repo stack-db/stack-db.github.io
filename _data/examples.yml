@@ -1,0 +1,6 @@
+- name: Graph of Thrones
+  desc: TV show
+  file: got.stack
+- name: Medline
+  desc: Medical database
+  file: medline.stack
