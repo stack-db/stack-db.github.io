@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-md navbar-light" style="background-color: #F0E8C0">
+  <div class="container">
+    <a class="navbar-brand" href="{{ '/cardb' | relative_url }}">
+      <i class="fa-solid fa-layer-group"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        {% for item in site.data.nav %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.label }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
