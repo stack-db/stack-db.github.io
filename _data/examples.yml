@@ -1,6 +1,8 @@
 - name: Graph of Thrones
   desc: TV show
   file: got.stack
+  ncards: 655
 - name: Medline
   desc: Medical database
   file: medline.stack
+  ncards: 23086
