@@ -41,13 +41,15 @@ each of us losing control over what we know.
 
 LLMs use skill files (markdown text) to share knowledge. These are
 easy for humans and LLMs to create and to read. But sometimes as they
-get bigger they get harder to read. Sometimes knowledge has more
-structure to it, so a big collection of prose is not always the best
-way to capture it.  Stacks are great for structured knowledge, the
-kind you represent in ontologies or knowledge graphs. LLMs can read
-stacks easily and look up the information they need, and so can
-people. Stacks can of course contain markdown text, and a stack can be
-a good way to keep your skills organized.
+get bigger they get harder to browse and harder to read. Sometimes
+knowledge has more structure to it, so a big collection of prose is
+not always the best way to capture it.
+
+Stacks are great for structured knowledge, the kind you represent in
+ontologies or knowledge graphs. LLMs can read stacks easily and look
+up the information they need, and so can people. Stacks can of course
+contain markdown text, and a stack can be a good way to keep your
+skills organized.
 
 
 ## A subway map
@@ -60,6 +62,8 @@ Let's say you wanted to share knowledge about how to get around New York City.
   and give it to someone, saying "here's where everything is."
 
 * The stack way: you hand them a subway map linked to detailed info about each stop.
+
+They're not the same or equivalent. But each has its advantages.
 
 ##  Secure and local
 
