@@ -88,3 +88,10 @@ relation.
     rel: student
     reverse-rel: teacher
 ```
+
+### docs
+
+A rich `.stack` file is a zip archive containing a folder called
+`/docs`. You can put any files you want into this: typically pictures
+or source code files. Like a web site, the stack can use these files
+to help render the cards for each node. (code description coming soon)
