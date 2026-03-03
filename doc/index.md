@@ -82,7 +82,8 @@ Read about the [file format](file-format)
 
 Do you remember [Hypercard](https://hypercard.org/)? We do.
 You can add buttons, text, and images to your stacks.
-You can even add code (coming soon).
+
+Read about how to customize your stack by adding [code](code)
 
 <p class="mb-5">&nbsp;</p>
 <p class="mb-5">&nbsp;</p>
