@@ -4,7 +4,7 @@ layout: default
 ---
 
 <p class="mt-5"/>
-<a href="."><i class="fa-solid fa-chevron-left"></i> back</a>
+<a href="{{ '/doc' | relative_url }}"><i class="fa-solid fa-chevron-left"></i> Docs</a>
 
 
 # Code

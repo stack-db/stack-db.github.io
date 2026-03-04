@@ -1,5 +1,12 @@
 - label: Docs
   url: ./doc
+  items:
+    - label: Docs
+      url: ./doc
+    - label: File format
+      url: ./doc/file-format
+    - label: Code
+      url: ./doc/code
 
 - label: Examples
   url: ./examples

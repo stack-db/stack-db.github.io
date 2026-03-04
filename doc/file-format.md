@@ -4,7 +4,7 @@ layout: default
 ---
 
 <p class="mt-5"/>
-<a href="."><i class="fa-solid fa-chevron-left"></i> back</a>
+<a href="{{ '/doc' | relative_url }}"><i class="fa-solid fa-chevron-left"></i> Docs</a>
 
 
 # File format
@@ -30,6 +30,16 @@ This command creates a rich stack file named `about.stack`, assuming you already
 ```bash
 % zip -r about.stack stack.yml docs
 ```
+
+The resulting file structure will look something like this
+<pre>
+about.stack
+├── stack.yml
+└── docs/
+    ├── image1.png
+    ├── skill.md
+    └── ...
+</pre>
 
 ## Syntax
 

@@ -9,9 +9,26 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         {% for item in site.data.nav %}
+        {% if item.items %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ item.label }}
+          </a>
+          <ul class="dropdown-menu">
+            {% for sub in item.items %}
+            <li><a class="dropdown-item" href="{{ sub.url | relative_url }}">
+		{% unless forloop.first %}
+		<i class="fa-solid fa-chevron-right fa-2xs text-muted me-1"></i>
+		{% endunless %}
+		{{ sub.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% else %}
         <li class="nav-item">
           <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.label }}</a>
         </li>
+        {% endif %}
         {% endfor %}
       </ul>
     </div>
