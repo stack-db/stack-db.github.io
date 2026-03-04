@@ -8,5 +8,6 @@ collections:
 exclude:
   - CNAME
 
+permalink: pretty
 plugins:
   - jekyll-redirect-from
