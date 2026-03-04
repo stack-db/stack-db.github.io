@@ -1,6 +1,9 @@
 ---
 title: Documentation
 layout: default
+permalink: /doc
+redirect_from:
+  - /docs
 ---
 
 <p class="mt-5"/>

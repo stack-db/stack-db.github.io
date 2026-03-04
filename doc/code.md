@@ -71,10 +71,10 @@ If `onShowCard` is defined for a card, it's used to draw that card.
 
 If you just want to add something new, but not replace the default behavior, here are two handy functions you can call:
 
- * You can call `drawDefaultCardFront(node, stack, element)` from your
+ * You can call `defaultOnShowCard(node, stack, element)` from your
 definition if you also want the default behavior.
 
- * You can call `stackOnShowCard(node, stack, element)` from your
+ * You can call `stack.onShowCard(node, stack, element)` from your
 definition if you also want the stack's behavior. This is useful if
 you just want to add something new, but not replace the default
 behavior.

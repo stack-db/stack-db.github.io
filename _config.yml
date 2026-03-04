@@ -4,7 +4,9 @@ description: StackDB documentation and examples
 collections:
   - examples
 
-
-# Don't process the cardb React app's files (it's a separate repo/deploy)
+# Don't process the cardb React app, it's in the ../cardb repo.
 exclude:
   - CNAME
+
+plugins:
+  - jekyll-redirect-from
