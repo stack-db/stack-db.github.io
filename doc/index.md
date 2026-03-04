@@ -71,7 +71,7 @@ They're not the same or equivalent. But each has its advantages.
 ##  Secure and local
 
 You don't need an account to create, use, and share a stack.
-This [web app](../cardb), for example, runs entirely in your local browser.
+This [web app]({{ "/cardb" | relative_url }}), for example, runs entirely in your local browser.
 Any edits you make are saved on your local disk. There's no login or password.
 They're not uploaded anywhere unless you want them to be.
 
@@ -79,14 +79,14 @@ And it's shareware, so there are no usage limits or fees.
 
 ## File format
 
-Read about the [file format](./file-format)
+Read about the [file format]({{ "/doc/file-format" | relative_url }})
 
 ## Extensible
 
 Do you remember [Hypercard](https://hypercard.org/)? We do.
 You can add buttons, text, and images to your stacks.
 
-Read about how to customize your stack by adding [code](./code)
+Read about how to customize your stack by adding [code]({{ "/doc/code" | relative_url }})
 
 <p class="mb-5">&nbsp;</p>
 <p class="mb-5">&nbsp;</p>
