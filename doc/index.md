@@ -79,14 +79,14 @@ And it's shareware, so there are no usage limits or fees.
 
 ## File format
 
-Read about the [file format](file-format)
+Read about the [file format](./file-format)
 
 ## Extensible
 
 Do you remember [Hypercard](https://hypercard.org/)? We do.
 You can add buttons, text, and images to your stacks.
 
-Read about how to customize your stack by adding [code](code)
+Read about how to customize your stack by adding [code](./code)
 
 <p class="mb-5">&nbsp;</p>
 <p class="mb-5">&nbsp;</p>
