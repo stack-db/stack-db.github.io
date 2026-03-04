@@ -17,7 +17,7 @@ The cards in a stack are connected by links.
 
 A stack can hold any kind of data or knowledge.
 Some people use them to store ontologies.
-Others use them to store recipies or contacts in an address book.
+Others use them to store recipes or contacts in an address book.
 
 
 ## Knowledge
