@@ -7,7 +7,7 @@ layout: default
 <i class="fa-solid fa-chevron-left fa-2xs text-muted"></i> <a href="{{ '/doc' | relative_url }}">Docs</a>
 
 
-# File format
+# <span class="fa-stack fa-2xs" style="font-size: 45%"><i class="fa-solid fa-file fa-stack-2x " style="color: #AAA"></i><i class="fa-solid fa-layer-group fa-stack-1x fa-inverse" style="top: 2px;"></i></span> File format
 
 There are two valid ways to create a stack file with a name like `notes-to-self.stack`:
 
