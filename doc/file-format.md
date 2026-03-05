@@ -31,15 +31,15 @@ This command creates a rich stack file named `about.stack`, assuming you already
 % zip -r about.stack stack.yml pack
 ```
 
-The resulting file structure will look something like this
-<pre>
-about.stack
+The resulting structure inside the `about.stack` archive will look something like this
+
+<div class="mb-3"><i class="fa-solid fa-file text-muted d-inline me-2"></i><pre class="d-inline">about.stack
 ├── stack.yml
 └── pack/
-    ├── image1.png
+    ├── image.png
     ├── skill.md
     └── ...
-</pre>
+</pre></div>
 
 ## Syntax
 
