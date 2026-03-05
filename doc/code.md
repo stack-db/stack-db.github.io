@@ -33,7 +33,7 @@ If the `code` field is plain text, it's interpreted as javascript.
 
 If the `code` field is an object, you can load code from a zipped
 source file.  Specify a zipped pathname as the value of `src`. In this
-example, the code will be loaded from `/docs/my-script.js` from inside
+example, the code will be loaded from `/pack/my-script.js` from inside
 the stack.
 
 ```yaml

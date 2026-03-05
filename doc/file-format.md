@@ -15,8 +15,8 @@ There are two valid ways to create a stack file with a name like `notes-to-self.
 
 * Rich: A stack file is a [ZIP](https://en.wikipedia.org/wiki/ZIP_(file_format)) file containing:
    * One simple YAML file called `stack.yml`
-   * One directory called `docs/`
-   * Any number of files (images, markdown, source code) under `docs/`
+   * One directory called `pack/`
+   * Any number of files (images, markdown, source code) under `pack/`
 
 Both simple and rich stack files have the `.stack` suffix. The machines will know how to handle this.
 
@@ -25,17 +25,17 @@ The MIME type is `application/stack`
 
 ## How to create a rich stack
 
-This command creates a rich stack file named `about.stack`, assuming you already have created `stack.yml` and put some files into `./docs/`:
+This command creates a rich stack file named `about.stack`, assuming you already have created `stack.yml` and put some files into `./pack/`:
 
 ```bash
-% zip -r about.stack stack.yml docs
+% zip -r about.stack stack.yml pack
 ```
 
 The resulting file structure will look something like this
 <pre>
 about.stack
 ├── stack.yml
-└── docs/
+└── pack/
     ├── image1.png
     ├── skill.md
     └── ...
@@ -47,7 +47,7 @@ about.stack
 ### Special chars
 
 * `@handle` - use an `@` to identify the handle, a unique identifier for a node
-* `$/path` - use `$/` to refer to a file included under `docs/` in a rich stack.
+* `$/path` - use `$/` to refer to a file included under `pack/` in a rich stack.
 * `\@` or `\$` - use `\` to escape a special character at the beginning of a string
 
 ### The top level: the stack
@@ -99,9 +99,9 @@ relation.
     reverse-rel: teacher
 ```
 
-### docs
+### The Stack Pack
 
 A rich `.stack` file is a zip archive containing a folder called
-`/docs`. You can put any files you want into this: typically pictures
+`/pack`. You can put any files you want into this: typically pictures
 or source code files. Like a web site, the stack can use these files
 to help render the cards for each node. (code description coming soon)
