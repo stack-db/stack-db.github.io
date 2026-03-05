@@ -10,3 +10,7 @@
   desc: Cybersecurity taxonomy
   file: nist_csf.stack
   ncards: 226
+- name: Google Merchant Center
+  desc: Product taxonomy
+  file: products.stack
+  ncards: 5596
