@@ -1,5 +1,6 @@
 title: NIST Cybersecurity Framework 2.0
 first_card: '@about'
+version: 0.1
 fields:
   url:
     type: a

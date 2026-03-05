@@ -1,5 +1,6 @@
 title: Google Product Taxonomy
 first_card: '@about'
+version: 0.1
 nodes:
 - handle: about
   tags:
