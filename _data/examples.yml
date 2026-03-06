@@ -14,3 +14,7 @@
   desc: Product taxonomy
   file: products.stack
   ncards: 5596
+- name: MAD (Machine Learning, AI & Data) Landscape
+  desc: Industry map
+  file: firstmark.stack
+  ncards: 1254
