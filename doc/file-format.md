@@ -165,15 +165,13 @@ there are any `stack` fields, their definitions are overidden by any
 fields defined on the `card`.
 
 
-
 ### The links
 
-To create a link between two nodes, define the `source` and `target` using handles.
+To create a link between two nodes, define the `source` and `target` using handles [required].
 
-Use `rel` to name the outgoing relation. If the link is bidirectional,
-use `bidirectional: true` and use `reverse-rel` to name the incoming
-relation.
-
+Use `rel` to name the outgoing relation [optional]. Links are bidirectional by default.
+Use `reverse-rel` [optional] to name the incoming relation. You can specify
+`bidirectional: false` to not specify the incoming relation.
 
 ```
   # Plato was a student of Socrates
