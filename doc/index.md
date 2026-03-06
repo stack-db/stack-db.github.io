@@ -68,6 +68,13 @@ Let's say you wanted to share knowledge about how to get around New York City.
 
 They're not the same or equivalent. But each has its advantages.
 
+*Why stacks? If you want to link pages, why don't you just use HTML?*
+
+Stacks are better than HTML for sharing graphs (linked nodes). Stacks
+give you a quick, easy, and most importantly, standardized way to
+serialize a knowledge graph into a file and share it with your
+friends, both humans and the LLM kind.
+
 ##  Secure and local
 
 You don't need an account to create, use, and share a stack.
@@ -87,6 +94,7 @@ Do you remember [Hypercard](https://hypercard.org/)? We do.
 You can add buttons, text, and images to your stacks.
 
 Read about how to customize your stack by adding [code]({{ "/doc/code" | relative_url }})
+
 
 <p class="mb-5">&nbsp;</p>
 <p class="mb-5">&nbsp;</p>
