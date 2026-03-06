@@ -171,7 +171,7 @@ To create a link between two nodes, define the `source` and `target` using handl
 
 Use `rel` to name the outgoing relation [optional]. Links are bidirectional by default.
 Use `reverse-rel` [optional] to name the incoming relation. You can specify
-`bidirectional: false` to not specify the incoming relation.
+`bidirectional: false` to indicate there's no incoming relation.
 
 ```
   # Plato was a student of Socrates
