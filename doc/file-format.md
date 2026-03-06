@@ -145,6 +145,7 @@ of `type`, some other field value keys might also be specified.
 * `boolean`
 * `string`
 * `number`
+* `markdown`: The `value` is a string to be interpreted as markdown formatted text.
 * `object`: The `value` is an arbitrary JSON object. This avoids collisions when having keys like 
    `type` or `value` in the object.
 
@@ -175,6 +176,11 @@ definitions take priority over those inherited by its tag or stack. If
 there are any `stack` fields, their definitions are overidden by any
 `tag` fields for the current card. These are then overridden by any
 fields defined on the `card`.
+
+One common pattern is to define the type of a field (i.e. `type:
+markdown`) at the stack or tag level, which is applied to all of its
+cards.  Then, each card declares a simple value for that field
+(i.e. `value: *really* awesome`).
 
 
 ### Links
