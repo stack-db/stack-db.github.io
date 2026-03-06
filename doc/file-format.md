@@ -123,9 +123,9 @@ values nested under the `value` key.
     value: awesome        # [optional] declares a value
     type:  string         # [optional] declares the type of the value
     style: ...            # [optional] declares a css style which is applied when rendering this field
-    label: ...            # [only used with <a> fields]
-    defaultLabel: ...     # [only used with <a> fields]
-    href: ...             # [only used with <img> fields]
+    label: ...            # [optional] [only used with <a> fields] a string
+    defaultLabel: ...     # [optional] [only used with <a> fields] must be 'url' or 'field'
+    href: ...             # [optional] [only used with <img> fields] a url or handle
 ```
 
 `type`: A type should have one of these values. Depending on the value
@@ -137,15 +137,16 @@ of `type`, some other field value keys might also be specified.
 * `object`: The `value` is an arbitrary JSON object. This avoids collisions when having keys like 
    `type` or `value` in the object.
 
-* `a`: The `value` is expected to be a valid URL. This is displayed on the card as a clickable link.
+* `a`: The `value` is expected to be a valid URL or a handle. This is displayed on the card 
+  as a clickable link.
    * `label`: For `a` fields, if `label` is defined, it declares the label for the clickable link
    * `defaultLabel`: For `a` fields, if `defaultLabel` is defined, it must have a value of 
-   either `url` (display the url as the label) or `field` (display the field name as the label).
+   either `url` (display the url/handle as the label) or `field` (display the field name as the label).
 
 * `img`: The `value` is expected to be a valid URL or pack pathname (`"$/path"`). This is displayed on the
   card as an image.
-   * If `href` is also defined, it's expected to be a valid URL. The
-     image is a clickable link to this URL.
+   * If `href` is also defined, it's expected to be a valid URL or a handle. The
+     image is a clickable link to this URL or the card with the handle.
 
 
 #### Field merging
