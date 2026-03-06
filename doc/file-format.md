@@ -179,8 +179,9 @@ fields defined on the `card`.
 
 One common pattern is to define the type of a field (i.e. `type:
 markdown`) at the stack or tag level, which is applied to all of its
-cards.  Then, each card declares a simple value for that field
-(i.e. `value: *really* awesome`).
+cards. The field inherits the type so we don't need to repeat the
+declaration on every card. Each card declares a simple value for that
+field (i.e. `value: *really* awesome`).
 
 
 ### Links
