@@ -79,7 +79,18 @@ very fluid and subject to change.
 `first_card` declares the handle of the card to display when the stack
 is opened.
 
-### Nodes
+### Nodes or cards
+
+We use `node` and `card` almost interchangeably. The meanings are
+pretty close but our usage can be nuanced:
+
+ * `node` is a data element in a graph. It refers to the data stored
+   in a graph node. Like data in a spreadsheet, sometimes the font
+   style is not so important but the value of the data is.
+
+ * `card` is a visual representation of a node. It refers to how a
+   node is displayed and behaves on your screen. Like cells in a spreadsheet,
+   sometimes the font style is important for the user experience.
 
 Each of the nodes should have a `handle`. This lets you refer to the
 node. Each handle must be unique within the stack. You can define the
