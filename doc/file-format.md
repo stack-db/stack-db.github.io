@@ -128,15 +128,22 @@ values nested under the `value` key.
     href: ...             # [only used with <img> fields]
 ```
 
-Here are some known types:
+`type`: A type should have one of these values. Depending on the value
+of `type`, some other field value keys might also be specified.
+
 * `boolean`
 * `string`
 * `number`
-* `object`: The `value` is an arbitrary JSON object.
+* `object`: The `value` is an arbitrary JSON object. This avoids collisions when having keys like 
+   `type` or `value` in the object.
+
 * `a`: The `value` is expected to be a valid URL. This is displayed on the card as a clickable link.
    * `label`: For `a` fields, if `label` is defined, it declares the label for the clickable link
-   * `defaultLabel`: For `a` fields, if `defaultLabel` is defined, it must have 
-* `img`: The `value` is expected to be a valid URL or pack filename. This is displayed on the card as an image.
+   * `defaultLabel`: For `a` fields, if `defaultLabel` is defined, it must have a value of 
+   either `url` (display the url as the label) or `field` (display the field name as the label).
+
+* `img`: The `value` is expected to be a valid URL or pack pathname (`"$/path"`). This is displayed on the
+  card as an image.
    * If `href` is also defined, it's expected to be a valid URL. The
      image is a clickable link to this URL.
 
