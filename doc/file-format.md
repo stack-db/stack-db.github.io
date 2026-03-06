@@ -79,7 +79,7 @@ very fluid and subject to change.
 `first_card` declares the handle of the card to display when the stack
 is opened.
 
-### The nodes
+### Nodes
 
 Each of the nodes should have a `handle`. This lets you refer to the
 node. Each handle must be unique within the stack. You can define the
@@ -165,7 +165,7 @@ there are any `stack` fields, their definitions are overidden by any
 fields defined on the `card`.
 
 
-### The links
+### Links
 
 To create a link between two nodes, define the `source` and `target` using handles [required].
 
@@ -195,9 +195,9 @@ like this:
     - expensive
 ```
 
-Tags can define their own fields. You can define fields for `tag` by
-defining a *tag node* or *tag card*. This is a node whose handle is
-the name of the tag. For example, here we define two nodes. 
+Tags can define their own fields. You can define fields for a tag by
+defining a *tag node*. This is a node whose handle is the name of the
+tag. For example, here we define two nodes.
 
 * The `tag node` for `tag: expensive` is defined using `handle: expensive`.
   This node defines a field named `price`. Notice that
